@@ -1,6 +1,12 @@
 # [express-meta-data](https://github.com/deployable/node-deployable-express-meta-data)
 
-Express Meta Data
+Express Meta Data provides middleware that attaches useful metadata to express requests.
+
+Every request has a `request_id` assocatiated with it
+
+Requests are timed and can be logged at start/stop
+
+Running requests are tracked
 
 ### Install
  
