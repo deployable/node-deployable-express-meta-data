@@ -1,0 +1,36 @@
+{
+  "name": "deployable-express-meta-data",
+  "version": "0.1.0",
+  "description": "Express Meta Data",
+  "main": "lib/express_meta_data.js",
+  "scripts": {
+    "test": "mocha",
+    "test:debug": "DEBUG='*' mocha debug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deployable/node-deployable-express-meta-data.git"
+  },
+  "keywords": [
+    "deployable",
+    "module"
+  ],
+  "author": "Matt Hoyle <code at deployable.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deployable/node-deployable-express-meta-data/issues"
+  },
+  "homepage": "https://github.com/deployable/deployable-express-meta-data#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2",
+    "sinon": "^1.17.6"
+  },
+  "dependencies": {
+    "debug": "^2",
+    "deployable-mixin-class_uid": "^0.1.0",
+    "deployable-mixin-instances": "^0.1.0",
+    "deployable-request-meta-data": "^0.1.0",
+    "mixwith": "~0.1.1"
+  }
+}
