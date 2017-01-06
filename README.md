@@ -24,6 +24,7 @@ app.get('/', (req,res) => res.json(req._emd.request_id))
 ### License
 
 deployable-express-meta-data is released under the MIT license.
+
 Copyright 2016 Matt Hoyle - code at deployable.co
 
 https://github.com/deployable/deployable-express-meta-data
