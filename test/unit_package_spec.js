@@ -1,11 +1,11 @@
-const Something = require('../')
+const Emd = require('../')
 
-describe('Unit::deployable-express-meta-data', function(){
+describe('Unit::express-meta-data', function(){
 
-  describe('Something does something', function(){
+  describe('requires class from package.json', function(){
   
     it('should do something with module', function(){
-      expect( Something.something() ).to.equal( 1 )
+      expect( Emd ).to.be.ok
     })
 
   })
