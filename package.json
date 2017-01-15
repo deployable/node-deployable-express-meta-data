@@ -1,6 +1,6 @@
 {
   "name": "deployable-express-meta-data",
-  "version": "0.2.0-0",
+  "version": "0.2.0-1",
   "description": "Express Meta Data",
   "main": "lib/express_meta_data.js",
   "scripts": {
