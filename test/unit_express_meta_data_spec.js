@@ -4,7 +4,18 @@ const ExpressMetaData = require('../lib/express_meta_data')
 
 describe('Unit::ExpressMetaData', function () {
 
-  describe('ExpressMetaData class', function(){
+
+  describe('ExpressMetaData instance', function(){
+    it('should have a middleware function', function(){
+      expect( ExpressMetaData.middleware ).to.be.a('function')
+    })
+    it('should have generate a middleware function', function(){
+      expect( ExpressMetaData.middleware() ).to.be.a('function')
+    })
+  })
+
+
+  describe('ExpressMetaData instance', function(){
 
     let emd = null
 
