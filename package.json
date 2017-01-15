@@ -25,6 +25,7 @@
   "homepage": "https://github.com/deployable/deployable-express-meta-data#readme",
   "devDependencies": {
     "chai": "^3.5.0",
+    "express": "^4.14.0",
     "mocha": "^3.1.2",
     "sinon": "^1.17.6"
   },
