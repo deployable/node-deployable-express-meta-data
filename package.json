@@ -1,11 +1,13 @@
 {
   "name": "deployable-express-meta-data",
-  "version": "0.1.0",
+  "version": "0.2.0-0",
   "description": "Express Meta Data",
   "main": "lib/express_meta_data.js",
   "scripts": {
     "test": "mocha",
-    "test:debug": "DEBUG='*' mocha debug"
+    "test:debug": "DEBUG='*' mocha debug",
+    "npm:publish": "set -uex; npm test; [ -z \"$(git status --porcelain)\" ]; npm version patch; git push; npm publish; git push --tags;",
+    "npm:pubtest": "npm test && npm version prerelease && npm publish --tag testing"
   },
   "repository": {
     "type": "git",
@@ -30,7 +32,7 @@
     "debug": "^2",
     "deployable-mixin-class_uid": "^0.1.0",
     "deployable-mixin-instances": "^0.1.0",
-    "deployable-request-meta-data": "^0.1.0",
+    "deployable-request-meta-data": "~0.2.0",
     "mixwith": "~0.1.1"
   }
 }
