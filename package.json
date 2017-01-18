@@ -1,6 +1,6 @@
 {
   "name": "deployable-express-meta-data",
-  "version": "0.2.4",
+  "version": "0.3.0-0",
   "description": "Express Meta Data",
   "main": "lib/express_meta_data.js",
   "scripts": {
@@ -34,7 +34,7 @@
     "debug": "^2",
     "deployable-mixin-class_uid": "^0.1.0",
     "deployable-mixin-instances": "^0.1.0",
-    "deployable-request-meta-data": "~0.2.0",
+    "deployable-request-meta-data": "^0.3.0",
     "mixwith": "~0.1.1"
   }
 }
